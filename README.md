@@ -1,3 +1,3 @@
 # generative-uap
 
-![UAP Sample #1](generative-uap/224x224-samples/rand_conv_224x224_iter45_id00814799.png)
+![UAP Sample #1](https://github.com/ArmstrongPhysics/generative-uap/blob/master/224x224-samples/rand_conv_224x224_iter45_id00814799.png)

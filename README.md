@@ -10,7 +10,7 @@ The algorithm is based analysis of UAPs generated from [source code from the ath
 
 The algorithm is very simple: we iteratively apply a random convolution to a random (padded) seed UAP and saturate the output (negative numbers -> -10 and positive numbers -> 10). 
 
-Using the inceptionh5 model and the ILSVRC2012 validation dataset, 50 UAPs generated with this algorithm acheived an average fooling rate of 44.75%. Contrast this with an average fooling rate of 52.33% for the approach used in the original UAP paper (averaging results over UAPS tested against datasets they were not trained on). 
+Using the inceptionh5 model and the ILSVRC2012 validation dataset, 50 UAPs generated with this algorithm acheived an average fooling rate of 44.75%. Contrast this with an average fooling rate of 52.33% for the model+data dependent approach used in the original UAP paper (averaging results over UAPS tested against datasets they were not trained on). 
 
 Below is a GIF that shows the evolution of the UAP over convolution iterations
 
